@@ -1,0 +1,6 @@
+- to build image:
+> docker build -t myimage .
+
+
+- to build and run container:
+> docker run -d --name mycontainer -p 80:80 myimage
